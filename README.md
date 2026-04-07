@@ -1,62 +1,64 @@
-🛸 BELRO // Design Intelligence Lab
-BELRO is a high-performance, immersive digital catalog designed to showcase the intersection of 3D architecture and design intelligence. Built with a focus on aesthetic precision, balanced white space, and rapid AI orchestration.
+# 🛸 BELRO // Design Intelligence Lab
 
-🏗️ Technical Architecture
-This project demonstrates the "Vibe Coding" philosophy—utilizing high-level AI orchestration to bridge the gap between complex 3D environments and high-performance web interfaces.
+**BELRO** is a high-performance, immersive digital catalog designed to showcase the intersection of 3D architecture and design intelligence. Built with a focus on aesthetic precision, balanced white space, and rapid AI orchestration.
 
-Framework: Next.js 14 (App Router)
+---
 
-3D Engine: React Three Fiber / Three.js
+## 🏗️ Technical Architecture
 
-Styling: Tailwind CSS (Custom Responsive Fluid Typography)
+This project demonstrates the **"Vibe Coding"** philosophy—utilizing high-level AI orchestration to bridge the gap between complex 3D environments and high-performance web interfaces.
 
-Asset Management: Optimized GLB/GLTF model handling
+* **Framework:** Next.js 14 (App Router)
+* **3D Engine:** React Three Fiber / Three.js
+* **Styling:** Tailwind CSS (Custom Responsive Fluid Typography)
+* **Asset Management:** Optimized GLB/GLTF model handling
+* **Deployment:** Vercel Edge Network
 
-Deployment: Vercel Edge Network
+---
 
-🚀 Key Features
-1. Immersive 3D Environments
+## 🚀 Key Features
+
+### 1. Immersive 3D Environments
 Integrated real-time 3D models with responsive scaling that adjusts dynamically based on the device viewport (Mobile/Tablet/Desktop).
 
-2. Centered Catalog Protocol
+### 2. Centered Catalog Protocol
 A 54-unit intelligence asset gallery featuring a strict centering layout and consistent gutter spacing.
 
-Square Aspect Ratio: Gallery cards maintain a consistent 1:1 ratio.
+* **Square Aspect Ratio:** Gallery cards maintain a consistent 1:1 ratio.
+* **Gutter Balance:** Strategic horizontal padding ensures content is perfectly framed on all screens.
+* **Glassmorphism UI:** Sophisticated backdrop-blur overlays for unit identification.
 
-Gutter Balance: Strategic horizontal padding ensures content is perfectly framed on all screens.
+### 3. Production Optimized
+* **Lazy-loading:** 3D assets with Suspense fallbacks.
+* **Architecture:** Clean, modular component architecture (Navbar, ToiletScene, Catalog).
 
-Glassmorphism UI: Sophisticated backdrop-blur overlays for unit identification.
+---
 
-3. Production Optimized
-Lazy-loaded 3D assets with Suspense fallbacks.
+📦 Key Dependencies
+Include this section to show the high-performance stack you are using for the BELRO project:
 
-Clean, modular component architecture (Navbar, ToiletScene, Catalog).
+Next.js 14: Core framework for the App Router and optimized rendering.
 
-🛠️ Installation & Setup
-Clone the repository:
+Three.js & React Three Fiber: Powers the immersive 3D background and model interactions.
 
-Bash
-git clone https://github.com/logic-boop/belro-3d-demo.git
-Install dependencies:
+Tailwind CSS: Used for the strict centering protocol and responsive fluid typography.
 
-Bash
-npm install
-Run the development server:
+Lucide React: Providing the minimal iconography for the UI.
 
-Bash
-npm run dev
 📂 Project Structure
-Plaintext
 ├── app/
 │   ├── components/       # UI Components (Navbar, ToiletScene)
 │   ├── globals.css       # Custom Tailwind & CSS Variables
-│   └── page.tsx          # Main Entry Point & Catalog Grid
+│   ├── layout.tsx        # Root layout with metadata
+│   └── page.tsx          # Main Entry Point & Centered Catalog Grid
 ├── public/
-│   ├── catalog/          # Asset Images
-│   └── models/           # 3D GLB/GLTF Models
+│   ├── catalog/          # 54 Asset images for the grid
+│   └── models/           # 3D GLB/GLTF Models and textures
+├── .gitignore            # Git exclusion rules
+├── package.json          # Project dependencies and scripts
 └── README.md             # Project Documentation
-👨‍💻 Author
-Olubode Afolabi James
-Technical Architect | Creative Coder | Full Stack Developer
 
-"Building custom AI-driven applications and high-performance web ecosystems at light speed."
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/logic-boop/belro-3d-demo.git](https://github.com/logic-boop/belro-3d-demo.git)
